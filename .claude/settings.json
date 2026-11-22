@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(gh run *)",
-      "Bash(gh api *)"
+      "Bash(gh api *)",
+      "Bash(git fetch *)",
+      "Bash(curl -s -H 'Cache-Control: no-cache' \"https://yifrankliu.github.io/?t=$\\(date +%s\\)\")",
+      "Bash(curl -sI https://yifrankliu.github.io/)"
     ]
   }
 }
